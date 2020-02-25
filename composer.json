@@ -1,0 +1,34 @@
+{
+    "name": "clarkwinkelmann/flarum-ext-lock-likes",
+    "description": "Remove ability to like posts in a locked discussion",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.11 <0.1.0-beta.13"
+    },
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClarkWinkelmann\\LockLikes\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Lock Likes",
+            "icon": {
+                "name": "fas fa-lock",
+                "backgroundColor": "#684ba6",
+                "color": "#fff"
+            }
+        }
+    }
+}
