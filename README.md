@@ -16,3 +16,6 @@ About restricted tags (tags that have custom permissions): Due to a limitation i
 
 - [GitHub](https://github.com/clarkwinkelmann/flarum-ext-lock-likes)
 - [Packagist](https://packagist.org/packages/clarkwinkelmann/flarum-ext-lock-likes)
+- [Discuss](https://discuss.flarum.org/d/23078)
+
+The initial version of this extension has been sponsored by [HereWeLink](https://www.herewelink.fr/)
