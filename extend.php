@@ -2,10 +2,10 @@
 
 namespace ClarkWinkelmann\LockLikes;
 
-use Illuminate\Contracts\Events\Dispatcher;
+use Flarum\Discussion\Discussion;
+use Flarum\Extend;
 
 return [
-    function (Dispatcher $events) {
-        $events->subscribe(Access\DiscussionPolicy::class);
-    },
+    (new Extend\Policy())
+        ->modelPolicy(Discussion::class, Access\DiscussionPolicy::class),
 ];
