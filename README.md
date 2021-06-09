@@ -21,7 +21,7 @@ You can [contact me](https://clarkwinkelmann.com/flarum) to sponsor additional f
 
 Support is offered on a "best effort" basis through the Flarum community thread.
 
-**Sponsors**: [HereWeLink](https://www.herewelink.fr/)
+**Sponsors**: [HereWeLink](https://www.herewelink.fr/), [GreXXL](https://www.flarumde.com/)
 
 ## Links
 
